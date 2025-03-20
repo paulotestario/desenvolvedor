@@ -8,7 +8,7 @@ function CepSearch() {
 
   // Substitua pelos seus dados de acesso à API
   const APP_KEY = 'RpSuudyIsl9SqgKdBdjC3AhSRUruAWJN';
-  const APP_SECRET = '4mLX5TNPZoKHfexFH4YQQ8Zfy3VXY9a6yRwObN2nifj1mkYi';
+  const APP_SECRET = '##';
 
   const buscarCEP = async () => {
     if (!cep.trim()) return;
