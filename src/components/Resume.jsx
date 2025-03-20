@@ -27,7 +27,7 @@ const Resume = () => {
   };
 
   const handleDownloadResume = () => {
-    const docUrl = '/Curriculum Vitae - Paulo Testa.docx';
+    const docUrl = 'https://docs.google.com/document/d/1-uS1C8P3s_VVxDoygevtvmeDqy9x65lS/edit?usp=sharing&ouid=113623616398855882059&rtpof=true&sd=true';
     const link = document.createElement('a');
     link.href = docUrl;
     link.download = 'Curriculum Vitae - Paulo Testa.docx';
