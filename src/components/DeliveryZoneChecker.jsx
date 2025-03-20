@@ -277,7 +277,7 @@ Total: R$ ${total.toFixed(2)}`;
         {/* Coluna com o mapa */}
         <div className="col-12 col-md-6">
           <LoadScript
-            googleMapsApiKey="AIzaSyATbaD0Ue9jdRR-nPVsGuRX2IjRJf_vcYI"
+            googleMapsApiKey="##"
             libraries={["geometry"]}
           >
             <GoogleMap
